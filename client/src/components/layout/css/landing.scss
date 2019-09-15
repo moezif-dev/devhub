@@ -1,0 +1,24 @@
+.landing {
+	position: relative;
+  background: url('../../../images/showcase.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+	
+	.landing-inner {
+	  padding-top: 80px;
+	}
+
+  .landing-header{
+  	font-size: 5em;
+  }
+
+  .landing-subheader{
+		max-width: 600px;
+		font-size: 16px;
+		margin-bottom: 15px;
+  	.title{
+  		font-size: 18px;
+  	}
+  }
+}

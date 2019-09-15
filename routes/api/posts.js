@@ -9,7 +9,6 @@ const STATUS = require('../utils').STATUS_CODES;
 const validatePostInput = require('../../validation/post');
 const ERR = require('../../validation/validation-errors');
 
-
 // Load Models
 const Post = require('../../models/Post');
 const Profile = require('../../models/Profile');

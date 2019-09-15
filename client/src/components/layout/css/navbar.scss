@@ -1,0 +1,24 @@
+@import "../../../ui/colors.scss";
+
+#menu-navbar{
+	&.dark-menu{
+		&.ui.secondary.pointing.menu{
+			background: $black;
+			margin: 0;
+			.item{
+				color: $white;
+
+				&:hover{
+					color: $white-dark;				
+				}
+				&.active{
+					color: $white;
+					border-color: $white;
+				}				
+				&.header{
+					color: $white !important;	
+				}
+			}
+		}	
+	}
+}
